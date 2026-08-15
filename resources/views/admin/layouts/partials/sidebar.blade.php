@@ -18,14 +18,13 @@
             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="fa fa-comment"></i><span
                         class="nav-text">Testimoni</span></a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Kelola Testimoni</a></li>
+                    <li><a href="{{ route('admin.testimonials') }}">Kelola Testimoni</a></li>
                 </ul>
             </li>
             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="fa fa-envelope"></i><span
                         class="nav-text">Pesan Kontak</span></a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Semua Pesan</a></li>
-                    <li><a href="#">Belum Dibaca</a></li>
+                    <li><a href="{{ route('admin.messages') }}">Semua Pesan</a></li>
                 </ul>
             </li>
         </ul>

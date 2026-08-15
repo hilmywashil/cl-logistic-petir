@@ -19,22 +19,23 @@
             <div class="col-lg-2 col-6 footer-links">
                 <h4>USEFUL LINKS</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="{{ route('home') }}">Beranda</a></li>
+                    <li><a href="{{ route('about') }}">Tentang Kami</a></li>
+                    <li><a href="{{ route('services') }}">Layanan</a></li>
+                    <li><a href="{{ route('contact') }}">Kontak</a></li>
+                    <li><a href="#">Syarat dan Ketentuan</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
                 <h4>SERVICES</h4>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Storage</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Packaging</a></li>
+                    <li><a href="#">Transportation</a></li>
+                    <li><a href="#">General</a></li>
                 </ul>
             </div>
 

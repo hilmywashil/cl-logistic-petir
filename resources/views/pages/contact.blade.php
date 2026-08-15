@@ -58,38 +58,51 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                    <form action="{{ route('contact.store') }}" method="POST" class="php-email-form" data-aos="fade-up"
                         data-aos-delay="200">
+
+                        @csrf
+
                         <div class="row gy-4">
 
                             <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                                <input type="text" name="name" class="form-control" placeholder="Nama" required>
                             </div>
 
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required>
                             </div>
 
                             <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                    required=""></textarea>
+                                <input type="text" class="form-control" name="subject" placeholder="Subjek" required>
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="message" rows="6" placeholder="Pesan"
+                                    required></textarea>
                             </div>
 
                             <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                                <button type="submit">Send Message</button>
+                                @if (session('success'))
+                                    <div class="sent-message">
+                                        {{ session('success') }}
+                                    </div>
+                                @endif
+
+                                @if ($errors->any())
+                                    <div class="error-message">
+                                        {{ $errors->first() }}
+                                    </div>
+                                @endif
+
+                                <button type="submit">Kirim Pesan</button>
+
                             </div>
 
                         </div>
                     </form>
-                </div><!-- End Contact Form -->
+                </div>
 
             </div>
 
