@@ -7,8 +7,6 @@
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/hero-bg.webp);">
         <div class="container position-relative">
             <h1>TENTANG KAMI</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
-                molestias.</p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="{{ route('home') }}">Beranda</a></li>
@@ -27,39 +25,37 @@
 
                 <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up"
                     data-aos-delay="200">
-                    <img src="assets/img/about.jpg" class="img-fluid" alt="">
-                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                    <img src="assets/img/about.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
                     <h3>TENTANG KAMI</h3>
                     <p>
-                        Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit
-                        quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt
-                        reiciendis veritatis asperiores placeat.
+                        Petir Logistik hadir untuk membantu kebutuhan pengiriman, transportasi, dan distribusi barang bagi
+                        pelanggan personal maupun bisnis. Kami mengutamakan proses yang terkoordinasi, penanganan yang
+                        bertanggung jawab, serta komunikasi yang jelas di setiap proses pengiriman.
                     </p>
                     <ul>
                         <li>
-                            <i class="bi bi-diagram-3"></i>
+                            <i class="bi bi-stopwatch"></i>
                             <div>
-                                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                                <h5>Upaya pengiriman lebih cepat</h5>
+                                <p>Menyesuaikan proses pengiriman dengan kebutuhan waktu dan tujuan barang.
+                                </p>
                             </div>
                         </li>
                         <li>
-                            <i class="bi bi-fullscreen-exit"></i>
+                            <i class="bi bi-arrows-angle-expand"></i>
                             <div>
-                                <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                                <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi
-                                </p>
+                                <h5>Jangkauan selalu siap</h5>
+                                <p>Mendukung kebutuhan pengiriman ke berbagai tujuan sesuai dengan rute yang tersedia.</p>
                             </div>
                         </li>
                         <li>
                             <i class="bi bi-broadcast"></i>
                             <div>
-                                <h5>Voluptatem et qui exercitationem</h5>
-                                <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam
-                                </p>
+                                <h5>Menangani setiap pengiriman dengan penuh perhatian</h5>
+                                <p>Memastikan barang ditangani dengan baik selama proses pengiriman berlangsung.</p>
                             </div>
                         </li>
                     </ul>
@@ -205,20 +201,20 @@
 
             <div class="swiper init-swiper">
                 <script type="application/json" class="swiper-config">
-                    {
-                      "loop": true,
-                      "speed": 600,
-                      "autoplay": {
-                        "delay": 5000
-                      },
-                      "slidesPerView": "auto",
-                      "pagination": {
-                        "el": ".swiper-pagination",
-                        "type": "bullets",
-                        "clickable": true
-                      }
-                    }
-                  </script>
+                                {
+                                  "loop": true,
+                                  "speed": 600,
+                                  "autoplay": {
+                                    "delay": 5000
+                                  },
+                                  "slidesPerView": "auto",
+                                  "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                  }
+                                }
+                              </script>
                 <div class="swiper-wrapper">
 
                     @foreach ($testimonials as $item)
@@ -261,7 +257,7 @@
         <div class="container section-title" data-aos="fade-up">
             <span>Frequently Asked Questions</span>
             <h2>Frequently Asked Questions</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Pertanyaan yang Sering Diajukan</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -274,58 +270,51 @@
 
                         <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
                             <i class="faq-icon bi bi-question-circle"></i>
-                            <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                            <h3>Bagaimana cara melakukan pengiriman melalui Petir Logistik?</h3>
                             <div class="faq-content">
-                                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
-                                    non.</p>
+                                <p>Hubungi tim kami dan sampaikan informasi barang serta tujuan pengiriman untuk mendapatkan
+                                    pilihan layanan yang sesuai.</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
                             <i class="faq-icon bi bi-question-circle"></i>
-                            <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                            <h3>Apakah pengiriman dapat dilacak?</h3>
                             <div class="faq-content">
-                                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                                    laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.</p>
+                                <p>Ya, Anda dapat menggunakan nomor resi untuk mengetahui status dan perkembangan
+                                    pengiriman.</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
                             <i class="faq-icon bi bi-question-circle"></i>
-                            <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                            <h3>Apakah Petir Logistik melayani pengiriman antar kota?</h3>
                             <div class="faq-content">
-                                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                    molestie at elementum eu facilisis sed odio morbi quis</p>
+                                <p>Ya, layanan pengiriman tersedia untuk berbagai tujuan sesuai dengan rute yang tersedia.
+                                </p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
                             <i class="faq-icon bi bi-question-circle"></i>
-                            <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                            <h3>Apakah tersedia layanan untuk kebutuhan bisnis?</h3>
                             <div class="faq-content">
-                                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                                    laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.</p>
+                                <p>Ya, kami melayani kebutuhan pengiriman dan distribusi untuk berbagai kebutuhan bisnis.
+                                </p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
                             <i class="faq-icon bi bi-question-circle"></i>
-                            <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+                            <h3>Barang apa saja yang dapat dikirim?</h3>
                             <div class="faq-content">
-                                <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                                    ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
-                                    adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                                <p>Jenis barang yang dapat dikirim menyesuaikan ketentuan layanan dan karakteristik barang.
+                                    Untuk informasi lebih lanjut, silakan hubungi tim Petir Logistik.
+                                </p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
@@ -339,5 +328,4 @@
         </div>
 
     </section><!-- /Faq Section -->
-
 @endsection

@@ -40,6 +40,7 @@
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
+        {{-- <a class="btn-getstarted" href="{{ route('contact') }}">Hubungi Kami</a> --}}
         <a class="btn-getstarted" href="{{ route('tracking') }}">Lacak Paket</a>
 
     </div>

@@ -7,8 +7,6 @@
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/hero-bg.webp);">
         <div class="container position-relative">
             <h1>LAYANAN KAMI</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
-                molestias.</p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="{{ route('home') }}">Beranda</a></li>
@@ -18,6 +16,7 @@
         </div>
     </div><!-- End Page Title -->
 
+    <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
 
         <div class="container">
@@ -28,8 +27,8 @@
                     <div class="icon flex-shrink-0"><i class="fa-solid fa-map"></i></div>
                     <div>
                         <h4 class="title">Domestic</h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
+                        <p class="description">Layanan pengiriman untuk kebutuhan bisnis dan personal ke berbagai wilayah di
+                            Indonesia dengan proses yang terkoordinasi dan mudah dipantau.</p>
                     </div>
                 </div>
                 <!-- End Service Item -->
@@ -38,17 +37,17 @@
                     <div class="icon flex-shrink-0"><i class="fa-solid fa-globe"></i></div>
                     <div>
                         <h4 class="title">International</h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat tarad limino ata</p>
+                        <p class="description">Solusi pengiriman lintas negara untuk membantu kebutuhan distribusi barang
+                            dengan proses yang lebih terarah dan dukungan penanganan dokumen.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon flex-shrink-0"><i class="fa-solid fa-clock"></i></div>
+                    <div class="icon flex-shrink-0"><i class="fa-solid fa-stopwatch"></i></div>
                     <div>
                         <h4 class="title">Same-Day</h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
+                        <p class="description">Pilihan layanan pengiriman untuk kebutuhan yang membutuhkan proses lebih
+                            cepat, dengan penyesuaian berdasarkan tujuan dan jenis barang.</p>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -98,7 +97,7 @@
         <div class="container section-title" data-aos="fade-up">
             <span>Features</span>
             <h2>Features</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Nikmati layanan logistik yang dirancang untuk membantu kebutuhan pengiriman dan distribusi Anda.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -108,18 +107,16 @@
                     <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <h3>Layanan Logistik Cepat, Aman, dan Terpercaya</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore
-                        magna aliqua.
+                        Layanan pengiriman yang praktis dan terorganisir untuk membantu kebutuhan logistik personal maupun
+                        bisnis Anda.
                     </p>
                     <ul>
-                        <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
+                        <li><i class="bi bi-check"></i><span> Proses pengiriman yang mudah</span></li>
+                        <li><i class="bi bi-check"></i> <span>Dukungan untuk kebutuhan bisnis</span></li>
+                        <li><i class="bi bi-check"></i> <span>Informasi pengiriman yang jelas</span>
+                        </li>
                     </ul>
                 </div>
             </div><!-- Features Item -->
@@ -129,18 +126,10 @@
                     <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Corporis temporibus maiores provident</h3>
+                    <h3>Distribusi yang Terkoordinasi</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore
-                        magna aliqua.
-                    </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
+                        Petir Logistik membantu menghubungkan kebutuhan pengiriman Anda dengan layanan transportasi dan
+                        distribusi yang sesuai dengan tujuan barang.
                     </p>
                 </div>
             </div><!-- Features Item -->
@@ -150,16 +139,13 @@
                     <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7" data-aos="fade-up">
-                    <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut
-                        quia voluptatem hic voluptas dolor doloremque.</p>
+                    <h3>Penanganan Pengiriman yang Teliti</h3>
+                    <p>Setiap pengiriman membutuhkan penanganan yang tepat. Kami berupaya memberikan pelayanan yang sesuai
+                        dengan karakteristik barang dan kebutuhan pengiriman Anda.</p>
                     <ul>
-                        <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</span></li>
-                        <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad
-                                fugiat</span>.</li>
+                        <li><i class="bi bi-check"></i> <span>Layanan yang dapat disesuaikan</span></li>
+                        <li><i class="bi bi-check"></i><span> Dukungan informasi selama proses pengiriman</span></li>
+                        <li><i class="bi bi-check"></i> <span>Penanganan barang secara bertanggung jawab</span></li>
                     </ul>
                 </div>
             </div><!-- Features Item -->
@@ -169,19 +155,12 @@
                     <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                    <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+                    <h3>Penanganan Pengiriman yang Terkoordinasi dan Tepat Waktu</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore
-                        magna aliqua.
+                        Kami membantu kebutuhan pengiriman barang untuk berbagai keperluan dengan proses yang terkoordinasi
+                        dari awal hingga barang mencapai tujuan.
                     </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
+
                 </div>
             </div><!-- Features Item -->
 

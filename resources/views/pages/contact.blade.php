@@ -6,8 +6,6 @@
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/hero-bg.webp);">
         <div class="container position-relative">
             <h1>HUBUNGI KAMI</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
-                molestias.</p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="{{ route('home') }}">Beranda</a></li>
@@ -34,24 +32,26 @@
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
-                            <h3>Address</h3>
+                            <h3>Alamat</h3>
                             <p>A108 Adam Street, New York, NY 535022</p>
                         </div>
                     </div><!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <i class="bi bi-whatsapp flex-shrink-0"></i>
                         <div>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <h3>WhatsApp</h3>
+                            <p>+62 812 3456 7890</p>
                         </div>
                     </div><!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
-                            <h3>Email Us</h3>
-                            <p>info@example.com</p>
+                            <h3>Email</h3>
+                            <p>admin1@petirlogistik.com (Admin 1)</p>
+                            <p>admin2@petirlogistik.com (Admin 2)</p>
+                            <p>info@petirlogistik.com</p>
                         </div>
                     </div><!-- End Info Item -->
 
@@ -84,18 +84,6 @@
 
                             <div class="col-md-12 text-center">
 
-                                @if (session('success'))
-                                    <div class="sent-message">
-                                        {{ session('success') }}
-                                    </div>
-                                @endif
-
-                                @if ($errors->any())
-                                    <div class="error-message">
-                                        {{ $errors->first() }}
-                                    </div>
-                                @endif
-
                                 <button type="submit">Kirim Pesan</button>
 
                             </div>
@@ -110,3 +98,28 @@
 
     </section><!-- /Contact Section -->
 @endsection
+
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    @if (session('success'))
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: 'Terima kasih',
+                text: @json(session('success')),
+                confirmButtonText: 'Tutup'
+            });
+        </script>
+    @endif
+
+    @if ($errors->any())
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Gagal',
+                text: @json($errors->first()),
+                confirmButtonText: 'Tutup'
+            });
+        </script>
+    @endif
+@endpush

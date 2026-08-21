@@ -7,12 +7,11 @@
     <div class="page-title dark-background" data-aos="fade"
         style="background-image: url({{ asset('assets/img/hero-bg.webp') }});">
         <div class="container position-relative">
-            <h1>LACAK RESI</h1>
-            <p>Lacak perjalanan kiriman Anda dengan mudah menggunakan nomor resi.</p>
+            <h1>LACAK PAKET</h1>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="{{ route('home') }}">Beranda</a></li>
-                    <li class="current">Lacak Resi</li>
+                    <li class="current">Lacak Paket</li>
                 </ol>
             </nav>
         </div>

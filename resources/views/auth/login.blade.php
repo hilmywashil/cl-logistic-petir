@@ -52,6 +52,11 @@
                                             <button type="submit" class="btn btn-primary btn-block">Sign in</button>
                                         </div>
                                     </form>
+                                    <div class="text-center mt-3">
+                                        <a href="{{ route('home') }}" class="text-primary">
+                                            <i class="fa fa-arrow-left mr-2"></i>Kembali ke Website
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
